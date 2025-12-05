@@ -13,8 +13,8 @@ private HashMap<Integer,Alumno> listaAlumnos;
         this.nombre = nombre;
         this.plan=planEstudio;
     }
-    public void inscribirAlumno(){
-
+    public void agregarAlumno(Alumno nuevoAlumno){
+    listaAlumnos.put(nuevoAlumno.getLegajo(),nuevoAlumno);
     }
     public boolean verificarFinCarrera(Alumno alumno){
     return true;

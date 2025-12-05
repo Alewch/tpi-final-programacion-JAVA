@@ -22,4 +22,8 @@ public class Alumno {
     public int getLegajo () {
         return legajo;
     }
+
+    public Carrera getCarrera () {
+        return carrera;
+    }
 }
