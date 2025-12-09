@@ -1,4 +1,4 @@
 package Modelo.CursadaConEstados;
 
-public class StateCursadaAprobada {
+public class StateCursadaAprobada extends State{
 }

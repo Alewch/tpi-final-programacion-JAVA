@@ -26,4 +26,12 @@ public class Alumno {
     public Carrera getCarrera () {
         return carrera;
     }
+
+    public HashMap<Integer, Materia> getMateriasDisponibles () {
+        return materiasDisponibles;
+    }
+
+    public void setCarrera (Carrera carrera) {
+        this.carrera = carrera;
+    }
 }

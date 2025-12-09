@@ -1,4 +1,4 @@
 package Modelo.CursadaConEstados;
 
-public class StateMateriaPromocionada {
+public class StateMateriaPromocionada extends State{
 }
